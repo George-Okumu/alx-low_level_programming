@@ -21,11 +21,11 @@ int main(void)
 
 if (n < 0)
 {
-printf("%dt is negative\n", n);
+printf("%d is negative\n", n);
 }
 else if (n > 0)
 {
-printf("%dt is positive\n", n);
+printf("%d is positive\n", n);
 }
 else
 {
