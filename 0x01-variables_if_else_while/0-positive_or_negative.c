@@ -29,7 +29,7 @@ printf("%d is positive\n", n);
 }
 else
 {
-printf("No number\n");
+printf("%d is Zero\n", n);
 }
 
 	return (0);
