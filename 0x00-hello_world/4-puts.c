@@ -1,5 +1,4 @@
-#include<stdio.h>
-
+#include <stdio.h>
 /**
  * function that prints out the string using the function puts
  *
@@ -10,5 +9,5 @@ int main(void)
     char my_string[] = "\"Programming is like building a multilingual puzzle";
     puts(my_string);
 
-    return 0;
+    return (0);
 }
