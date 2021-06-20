@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * main- a program that prints the alphabet in lowercase
- * Description: print all the letters except 
- * q and e
- * You can only use putchar
+ * main - This program program that
+ * prints the alphabet in lowercase,
+ * excluding e and q
+ * Description: You can only use the putchar function
+ * Return: 0
  */
-
 int main(void)
 {
 int ch;
