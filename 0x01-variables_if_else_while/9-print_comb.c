@@ -13,7 +13,7 @@ int ch;
 for (ch = '0'; ch <= '9'; ch++)
 {
 putchar(ch);
-if (ch != 8)
+if (ch != '9')
 {
 putchar(',');
 putchar(' ');
