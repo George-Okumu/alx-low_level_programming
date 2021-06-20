@@ -30,14 +30,14 @@ if (newNumber > 5)
 {
 printf("Last digit of %d is %d and is greater than 5\n", n, newNumber);
 }
-else if (newNumber < 6 && !0)
+else if (newNumber != 0)
 {
 printf("Last digit of %d is ", n);
-printf("%d and is less than 6 and not zero\n", newNumber);
+printf("%d and is less than 6 and not 0\n", newNumber);
 }
 else
 {
-printf("Last digit of %d is %d and is zero\n", n, newNumber);
+printf("Last digit of %d is %d and is 0\n", n, newNumber);
 }
 
 	return (0);
