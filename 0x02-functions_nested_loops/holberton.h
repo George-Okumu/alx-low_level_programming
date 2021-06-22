@@ -4,7 +4,7 @@
 /*Prints holberton*/
 int _putchar(char);
 
-/*for alphabet_lowercase*/
+/*Description: for alphabet_lowercase*/
 void print_alphabet(void);
 
 #endif

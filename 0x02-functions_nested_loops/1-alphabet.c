@@ -1,8 +1,6 @@
 #include "holberton.h"
 /**
- * main - prints lowercase alphabet
- * Description: uses 2 _putchar
- * Return: void
+ * print_alphabet - prints alphabet
  */
 void print_alphabet(void)
 {
