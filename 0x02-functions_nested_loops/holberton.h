@@ -13,4 +13,7 @@ void print_alphabet_x10(void);
 /*checks lowercase*/
 int _islower(int c);
 
+/*checks for alphabetic character*/
+int _isalpha(int c);
+
 #endif
