@@ -28,4 +28,7 @@ int print_last_digit(int);
 /*prints 9-times tables*/
 void times_table(void);
 
+/*adds two integers*/
+int add(int, int);
+
 #endif
