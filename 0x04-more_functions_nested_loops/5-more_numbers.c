@@ -11,7 +11,7 @@ int i;
 for (i = 0; i < 10; i++)
 {
 
-int a = 0;        
+int a = 0;
 while (a <= 14)
 {
 int b = 0;
@@ -25,10 +25,4 @@ a++;
 }
 _putchar('\n');
 }
-
-}
-int main(void)
-{
-    more_numbers();
-    return (0);
 }
