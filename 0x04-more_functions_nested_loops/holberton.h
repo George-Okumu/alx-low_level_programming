@@ -1,6 +1,9 @@
 #ifndef HOLBERTO_H
 #define HOLBERTON_H
 
+/*Prints holberton*/
+int _putchar(char);
+
 /*for checking uppercase*/
 int _isupper(int c);
 
@@ -15,5 +18,6 @@ void print_numbers(void);
 
 /*prints 0-9 but not 2&4*/
 void print_most_numbers(void);
+
 
 #endif
