@@ -12,8 +12,3 @@ if ((ch != 52 && ch != 50))
 _putchar(ch);
 _putchar('\n');
 }
-int main(void)
-{
-    print_most_numbers();
-    return (0);
-}
