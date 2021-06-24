@@ -13,4 +13,7 @@ int mul(int a, int b);
 /*prints 0-9*/
 void print_numbers(void);
 
+/*prints 0-9 but not 2&4*/
+void print_most_numbers(void);
+
 #endif
