@@ -10,4 +10,7 @@ int _isdigit(int c);
 /*multiplies tw integers*/
 int mul(int a, int b);
 
+/*prints 0-9*/
+void print_numbers(void);
+
 #endif
