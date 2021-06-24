@@ -5,12 +5,12 @@
  */
 void print_numbers(void)
 {
-int c = 48;
+int ch = 48;
 
-while (c < 58)
+while (ch < 58)
 {
-_putchar(c);
-c++;
+_putchar(ch);
+ch++;
 }
 _putchar('\n');
 }
