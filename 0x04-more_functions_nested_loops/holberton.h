@@ -19,5 +19,7 @@ void print_numbers(void);
 /*prints 0-9 but not 2&4*/
 void print_most_numbers(void);
 
+/*print numbers 10 time*/
+void more_numbers(void);
 
 #endif
