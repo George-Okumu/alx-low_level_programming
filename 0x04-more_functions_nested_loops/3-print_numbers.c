@@ -5,9 +5,13 @@
  */
 void print_numbers(void)
 {
-int ch = 48;
-while (ch < 58)
-{
+int ch;
+for (ch = 48; ch <= 57; ch++)
 _putchar(ch);
-ch++;
+_putchar('\n');
+}
+int main(void)
+{
+    print_numbers();
+    return (0);
 }
