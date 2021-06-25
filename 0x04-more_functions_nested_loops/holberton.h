@@ -28,4 +28,7 @@ void print_line(int n);
 /*draws a diagonal line*/
 void print_diagonal(int n);
 
+/*printing square*/
+void print_square(int size);
+
 #endif
