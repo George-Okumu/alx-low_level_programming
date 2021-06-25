@@ -14,17 +14,18 @@ for (i = 1; i <= 100; i++)
 {
 if ((i % 3 == 0) && (i % 5 == 0))
 {
-printf("fizzbuzz ");
+printf("FizzBuzz");
+printf(" ");
 
 }
 else if ((i % 5) == 0)
 {
 
-printf("buzz ");
+printf("Buzz ");
 }
 else if (i % 3 == 0)
 {
-printf("fizz ");
+printf("Fizz ");
 }
 
 else
