@@ -14,9 +14,13 @@ while (*(str + i) != '\0')
 i++;
 /*n = (length_of_the_string - 1) / 2*/
 if (i % 2 == 0)
+{
 i /= 2;
+}
 else
+{
 i = i / 2 + 1;
+}
 while (*(str + i) != '\0')
 {
 _putchar(*(str + i));
