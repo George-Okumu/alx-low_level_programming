@@ -28,4 +28,7 @@ void puts2(char *str);
 /*for half of a string*/
 void puts_half(char *str);
 
+/*copies string pointed by src*/
+char *_strcpy(char *dest, char *src);
+
 #endif
