@@ -8,18 +8,25 @@
  */
 void rev_string(char *s)
 {
-int length, c;
+int c;
 char *begin, *end, temp;
+/*finding string length*/
+int ch = 0;
+while (s[ch])
+ch++;
 
-length = _strlen(s);
+/*pointers, for first character and last*/
 begin  = s;
 end = s;
 
-for (c = 0; c < length - 1; c++)
+/*moving from begin to end*/
+for (c = 0; c < ch - 1; c++)
 end++;
 
-for (c = 0; c < length / 2; c++)
+/*use /2 to reverse*/
+for (c = 0; c < ch / 2; c++)
 {
+/*swap pointers*/
 temp   = *end;
 *end   = *begin;
 *begin = temp;
