@@ -2,17 +2,10 @@
 #include <stdio.h>
 /**
  * rev_string - reverses string
- * @s: string holder
+ * _strlen - finds length of s
+ * @s: string to be played with
  * Return: 0
  */
-int _strlen(char *s)
-{
-int ch = 0;
-while (s[ch])
-ch++;
-return (ch);
-}
-
 void rev_string(char *s)
 {
 int length, c;
