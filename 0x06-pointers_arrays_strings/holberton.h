@@ -7,4 +7,7 @@ char *_strcat(char *dest, char *src);
 /*concantecates two strings but uses n bytes from src*/
 char *_strncat(char *dest, char *src, int n);
 
+/*copies a string*/
+char *_strncpy(char *dest, char *src, int n);
+
 #endif
