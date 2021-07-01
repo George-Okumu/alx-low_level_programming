@@ -2,20 +2,17 @@
 #include <stdio.h>
 /**
  * string_toupper - changes all lowercase character to uppercase
- * @stri: String pointer
+ * @n: String pointer
  * Return: changed pointer
  */
-char string_toupper(char *stri)
+char string_toupper(char *n)
 {
-int i;
-while (*(stri + i) != '\0')
-{
-if (*(stri + i) >= 97 && *(stri + i) <= 122)
-{
-*(stri + i) = *(stri + i) - 32;
-}
-i++;
-}
 
-return (stri);
+while (*n != '\0')
+{
+if (*n > 96 && *n < 123)
+*n -= 32;
+n++;
+}
+return (n);
 }
