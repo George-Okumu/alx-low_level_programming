@@ -7,12 +7,13 @@
  */
 char string_toupper(char *n)
 {
+int i;
 
 while (*n != '\0')
 {
 if (*n > 96 && *n < 123)
-*n -= 32;
-n++;
+n[i] -= 32;
+i++;
 }
 return (n);
 }
