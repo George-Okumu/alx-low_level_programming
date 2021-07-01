@@ -9,9 +9,9 @@ char string_toupper(char *n)
 {
 int i;
 
-while (*n != '\0')
+while (n[i] != '\0')
 {
-if (*n > 96 && *n < 123)
+if (n[i] > 96 && n[i] < 123)
 n[i] -= 32;
 i++;
 }
