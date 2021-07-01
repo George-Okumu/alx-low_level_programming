@@ -20,6 +20,6 @@ void reverse_array(int *a, int n);
 char *_string_toupper(char *);
 
 /*capitalises every word in a string separated by ,, ;, ., !, ?, ", (, ), {, and }*/
-char *string_toupper(char *);
+char *cap_string(char *);
 
 #endif
