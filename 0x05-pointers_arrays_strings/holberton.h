@@ -31,4 +31,7 @@ void puts_half(char *str);
 /*copies string pointed by src*/
 char *_strcpy(char *dest, char *src);
 
+/*convert string to integer*/
+int _atoi(char *s);
+
 #endif
