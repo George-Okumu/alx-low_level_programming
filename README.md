@@ -1,1 +1,0 @@
-## Scripts for C programming
