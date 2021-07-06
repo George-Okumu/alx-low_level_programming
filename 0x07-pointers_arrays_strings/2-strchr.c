@@ -16,6 +16,9 @@ return (s);
 }
 s++;
 }
-
+if (!c)
+{
+return (s);
+}
 return (NULL);
 }
