@@ -1,6 +1,8 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 
+int _putchar(char);
+
 /*  Fills memory with a constant byte */
 char *_memset(char *s, char b, unsigned int n);
 
@@ -18,5 +20,8 @@ char *_strpbrk(char *s, char *accept);
 
 /*locates a substring*/
 char *_strstr(char *haystack, char *needle);
+
+/*print chess board*/
+void print_chessboard(char (*a)[8]);
 
 #endif
