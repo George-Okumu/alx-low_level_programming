@@ -1,1 +1,1 @@
-# Static Library file
+# Static libraries
