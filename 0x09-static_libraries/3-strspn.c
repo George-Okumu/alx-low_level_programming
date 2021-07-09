@@ -1,29 +1,6 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * _strchr - locates a character in a string
- * @s: string pointer
- * @c: character located
- * Return: charcter to the first occurence of c in string s
- */
-char *_strchr(char *s, char c)
-{
-while (*s)
-{
-if (*s == c)
-{
-return (s);
-}
-s++;
-}
-if ('\0')
-{
-return (s);
-}
-return (NULL);
-}
-
-/**
  * _strspn - gets the length of a prefix substring.
  * @s: string in which the characters of string accept are searched.
  * @accept: Another string, the characters of this string are searched in s.
@@ -32,17 +9,24 @@ return (NULL);
  */
 unsigned int _strspn(char *s, char *accept)
 {
-unsigned int len = 0;
+	unsigned int res = 0;
+	int i, foundChar;
 
-/* return 0 if any one is NULL */
-if ((s == NULL) || (accept == NULL))
-return (len);
-
-/*return s char position if found in accept*/
- /*if not found return NULL*/
-while (*s && _strchr(accept, *s++))
-{
-len++;
-}
-return (len);
+	while (*s)
+	{
+		for (i = 0; accept[i]; i++)
+		{
+			foundChar = 0;
+			if (*s == accept[i])
+			{
+				res++;
+				foundChar = 1;
+				break;
+			}
+		}
+		if (!foundChar)
+			break;
+		s++;
+	}
+	return (res);
 }
