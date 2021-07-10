@@ -22,4 +22,7 @@ int _pow_recursion(int x, int y);
 /*Return natural square of number n*/
 int _sqrt_recursion(int n);
 
+/*For prime number*/
+int is_prime_number(int n);
+
 #endif
