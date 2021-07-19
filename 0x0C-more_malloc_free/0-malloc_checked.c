@@ -4,7 +4,7 @@
 #include <limits.h>
 /**
  * malloc_checked - allocate memory
- * @b: int to be allocated memory
+ * @b: number of bytes to be allocated
  * Return: pointer to the allocated memory
  */
 void *malloc_checked(unsigned int b)
