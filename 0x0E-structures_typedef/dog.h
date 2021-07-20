@@ -1,7 +1,11 @@
 #ifndef DOG_H
 #define DOG_H
 /**
- * dog - stores the elements inside it
+ * struct dog - check the code for ALX School students.
+ * @name: name
+ * @age: age
+ * @owner: owner
+ * Above is for making Betty happy
  */
 struct dog
 {
