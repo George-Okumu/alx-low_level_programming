@@ -13,7 +13,8 @@ char *name;
 float age;
 char *owner;
 };
-typedef struct dog dog_t;/*typedef is just a way to alias a type with a specific name*/
+typedef struct dog dog_t;
+/*typedef is just a way to alias a type with a specific name*/
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 /*prints a struct dog*/
