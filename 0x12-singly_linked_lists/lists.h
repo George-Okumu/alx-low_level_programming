@@ -24,6 +24,9 @@ size_t print_list(const list_t *h);
 /*Returns no of elements in a list_t*/
 size_t list_len(const list_t *h);
 
+/*Adds new node at the begging of a lsit*/
+list_t *add_node(list_t **head, const char *str);
+
 /*put char*/
 int _putchar(char c);
 
