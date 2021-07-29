@@ -21,6 +21,9 @@ struct list_s *next;
 /*prints all elements of list_t*/
 size_t print_list(const list_t *h);
 
+/*Returns no of elements in a list_t*/
+size_t list_len(const list_t *h);
+
 /*put char*/
 int _putchar(char c);
 
